@@ -1,0 +1,163 @@
+.endFooter {
+    width: 100%;
+    border-top: #ffffff 2px solid;
+    position: relative;
+    padding-top: 30px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+  }
+  .endFooter img {
+    float: left;
+    width: 100px;
+    position: absolute;
+    left: 5%;
+  }
+  .endFooter span {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .endFooter a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .endFooter > i {
+    background-color: black;
+    float: right;
+    margin-right: 10%;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .language-selector {
+    position: relative;
+  }
+  
+  .lang-menu-footer {
+    display: none;
+    position: absolute;
+    right: 50%;
+    bottom: 30px;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    z-index: 1000;
+  }
+  
+  .lang-menu-footer div {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .lang-menu-footer div:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .endFooter > .language-selector {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .endFooter > .language-selector > i {
+    color: rgb(255, 255, 255);
+  }
+  
+  .endFooter {
+    width: 100%;
+    border-top: #ffffff 2px solid;
+    position: relative;
+    padding-top: 30px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+  }
+  .endFooter img {
+    float: left;
+    width: 100px;
+    position: absolute;
+    left: 5%;
+  }
+  .endFooter span {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .endFooter a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .endFooter > i {
+    background-color: black;
+    float: right;
+    margin-right: 10%;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .language-selector {
+    position: relative;
+  }
+  
+  .lang-menu-footer {
+    display: none;
+    position: absolute;
+    right: 50%;
+    bottom: 30px;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    z-index: 1000;
+  }
+  
+  .lang-menu-footer div {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .lang-menu-footer div:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .endFooter > .language-selector {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .endFooter > .language-selector > i {
+    color: rgb(255, 255, 255);
+  }
+  
+  

@@ -1,0 +1,127 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Web Development Bootcamp",
+        "description": "Learn HTML, CSS, JavaScript, and more to build modern web applications.",
+        "instructor": "John Doe",
+        "rating": 4.8,
+        "studentsEnrolled": 15200,
+        "price": 49.99,
+        "duration": "12 hours",
+        "image": "web-development.jpg",
+        "url": "https://www.udemy.com/course/web-development-bootcamp/",
+        "videos": [
+          {
+            "section":"1",
+            "title": "Introduction to Web Development",
+            "duration": "15 minutes",
+            "url": "https://www.udemy.com/course/video1"
+          },
+          {
+            "section":"2",
+            "title": "HTML Basics",
+            "duration": "30 minutes",
+            "url": "https://www.udemy.com/course/video2"
+          },
+          {
+            "section":"3",
+            "title": "CSS for Beginners",
+            "duration": "45 minutes",
+            "url": "https://www.udemy.com/course/video3"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Python for Data Science",
+        "description": "Master Python programming and learn how to analyze data using libraries like Pandas and NumPy.",
+        "instructor": "Jane Smith",
+        "rating": 4.6,
+        "studentsEnrolled": 23000,
+        "price": 39.99,
+        "tags": ["Python", "Data Science", "Machine Learning"],
+        "duration": "8 hours",
+        "image": "python-data-science.jpg",
+        "url": "https://www.udemy.com/course/python-for-data-science/",
+        "videos": [
+          {
+            "title": "Getting Started with Python",
+            "duration": "20 minutes",
+            "url": "https://www.udemy.com/course/video1"
+          },
+          {
+            "title": "Data Structures in Python",
+            "duration": "40 minutes",
+            "url": "https://www.udemy.com/course/video2"
+          },
+          {
+            "title": "Introduction to Pandas",
+            "duration": "35 minutes",
+            "url": "https://www.udemy.com/course/video3"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Digital Marketing Masterclass",
+        "description": "Explore SEO, social media marketing, and other techniques to grow your business online.",
+        "instructor": "Mark Lee",
+        "rating": 4.7,
+        "studentsEnrolled": 17500,
+        "price": 29.99,
+        "tags": ["Marketing", "SEO", "Social Media"],
+        "duration": "10 hours",
+        "image": "digital-marketing.jpg",
+        "url": "https://www.udemy.com/course/digital-marketing-masterclass/",
+        "videos": [
+          {
+            "title": "Introduction to Digital Marketing",
+            "duration": "25 minutes",
+            "url": "https://www.udemy.com/course/video1"
+          },
+          {
+            "title": "Social Media Strategies",
+            "duration": "50 minutes",
+            "url": "https://www.udemy.com/course/video2"
+          },
+          {
+            "title": "SEO Fundamentals",
+            "duration": "40 minutes",
+            "url": "https://www.udemy.com/course/video3"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Graphic Design Essentials",
+        "description": "Learn the fundamentals of graphic design, including Photoshop and Illustrator.",
+        "instructor": "Emily Davis",
+        "rating": 4.5,
+        "studentsEnrolled": 8900,
+        "price": 59.99,
+        "tags": ["Graphic Design", "Photoshop", "Illustrator"],
+        "duration": "6 hours",
+        "image": "graphic-design.jpg",
+        "url": "https://www.udemy.com/course/graphic-design-essentials/",
+        "videos": [
+          {
+            "title": "Introduction to Graphic Design",
+            "duration": "30 minutes",
+            "url": "https://www.udemy.com/course/video1"
+          },
+          {
+            "title": "Photoshop Basics",
+            "duration": "45 minutes",
+            "url": "https://www.udemy.com/course/video2"
+          },
+          {
+            "title": "Illustrator for Beginners",
+            "duration": "50 minutes",
+            "url": "https://www.udemy.com/course/video3"
+          }
+        ]
+      }
+    ]
+  }
+  

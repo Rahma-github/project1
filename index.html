@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style2/style.css">
+    <link rel="stylesheet" href="./style2/footerNew.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+<header>
+    <div id="header">
+        <div class="logo">
+            <img src="./images/logoUdemy.png" alt="udemy" title="udemy logo" width="100px" />
+        </div>
+        <div class="menu" id="menu">Explore</div>
+        <div class="search-box">
+            <form class="search-container">
+                <i class="fa-duotone fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search-bar" placeholder="Search for anything" />
+            </form>
+        </div>
+        <div class="Business" id="business">Udemy Business</div>
+        <div class="Teach" id="teach">Teach on Udemy</div>
+        <div class="shoppingCart">
+            <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart--v1.png" />
+        </div>
+        <div class="signBtn">Sign up</div>
+        <div class="LogBtn">Log in</div>
+
+        <div class="language-selector">
+            <button id="lang"><i class="fa-solid fa-globe" onclick="toggleLanguageMenu()"></i></button>
+            <div id="lang-menu" class="lang-menu">
+                <div onclick="changeLanguage('en')">English</div>
+                <div onclick="changeLanguage('ar')">العربية</div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="main-content">
+    <h1 id="welcome-text">Welcome to our website!</h1>
+</div>
+
+<footer>
+    <div class="endFooter">
+        <div>
+            <img class="udemy_logo btnH" src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg" alt="Udemy">
+        </div>
+        <span id="footer-text">© 2025 Udemy, Inc.</span>
+        <div id="cookie"><a href="">Cookie setting</a></div>
+
+        <div class="language-selector">
+            <i class="fa-solid fa-globe" onclick="toggleLanguageMenuFooter()"> Language </i>
+            <div id="lang-menu-footer" class="lang-menu-footer">
+                <div onclick="changeLanguage('en')">English</div>
+                <div onclick="changeLanguage('ar')">العربية</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const translations = {
+        en: {
+            menu: "Explore",
+            business: "Udemy Business",
+            teach: "Teach on Udemy",
+            welcomeText: "Welcome to our website!",
+            footerText: "© 2025 Udemy, Inc."
+        },
+        ar: {
+            menu: "استكشاف",
+            business: "أعمال يوديمي",
+            teach: "تعليم على يوديمي",
+            welcomeText: "مرحبًا بك في موقعنا!",
+            footerText: "© 2025 يودمي ، ذ.م.م."
+        }
+    };
+
+    function toggleLanguageMenu() {
+        const langMenu = document.getElementById("lang-menu");
+        langMenu.style.display = langMenu.style.display === "block" ? "none" : "block";
+    }
+
+    function toggleLanguageMenuFooter() {
+        const langMenuFooter = document.getElementById("lang-menu-footer");
+        langMenuFooter.style.display = langMenuFooter.style.display === "block" ? "none" : "block";
+    }
+
+    function changeLanguage(lang) {
+        document.getElementById("menu").innerText = translations[lang].menu;
+        document.getElementById("business").innerText = translations[lang].business;
+        document.getElementById("teach").innerText = translations[lang].teach;
+        document.getElementById("welcome-text").innerText = translations[lang].welcomeText;
+        document.getElementById("footer-text").innerText = translations[lang].footerText;
+
+        // Hide both language menus after selection
+        document.getElementById("lang-menu").style.display = "none";
+        document.getElementById("lang-menu-footer").style.display = "none";
+    }
+</script>
+</body>
+</html>

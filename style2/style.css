@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#header {
+  background-color: #ff000000;
+  width: 100%;
+  height: 70px;
+  border-top: 5px solid #17aa1c00;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.274);
+  position: relative;
+}
+
+.logo > img {
+  float: left;
+  width: 100px;
+  height: 100%;
+  margin-top: 10px;
+  margin-left: 1%;
+}
+
+.menu {
+  position: absolute;
+  left: 9%;
+  top: 30%;
+}
+
+.search-box {
+  width: 47%;
+  display: block;
+  float: left;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #020202;
+  border-radius: 25px;
+  padding: 0 10px;
+  background-color: #fff;
+}
+
+.search-container i {
+  color: gray;
+  margin-right: 10px;
+  padding: 2.3%;
+}
+
+#search-bar {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 40px;
+  font-size: 1rem;
+  color: black;
+}
+
+#search-bar::placeholder {
+  color: #a0a0a0;
+}
+
+.Business {
+  font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-size: 0.9rem;
+  font-weight: 400;
+  float: left;
+  position: absolute;
+  right: 30%;
+  top: 35%;
+}
+.Teach {
+  font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-size: 0.9rem;
+  font-weight: 400;
+  /* float: left; */
+  /* margin-left: 1%;
+  margin-top: 10px; */
+  position: absolute;
+  right: 22%;
+  top: 35%;
+}
+.shoppingCart {
+  position: absolute;
+  right: 19%;
+  top: 20%;
+}
+.shoppingCart > img {
+  margin-top: 10px;
+  margin-left: 1%;
+  cursor: pointer;
+}
+.LogBtn {
+  float: right;
+  padding: 10px 20px 10px 20px;
+  color: #1c1d1f;
+  background-color: transparent;
+  border: 1px solid #1c1d1f;
+  /* margin-right: 3%;
+  margin-top: 7px; */
+  font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto,
+    segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 10%;
+  position: absolute;
+  right: 12%;
+  top: 15%;
+}
+.LogBtn:hover {
+  background-color: rgb(233, 227, 227);
+}
+
+.signBtn {
+  float: right;
+  padding: 10px 20px 10px 20px;
+  color: #ffffff;
+  background-color: black;
+  border: 1px solid #ffffff;
+
+  font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto,
+    segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 10%;
+  position: absolute;
+  right: 5%;
+  top: 15%;
+}
+
+.signBtn:hover {
+  /* background-color: rgb(203, 199, 199); */
+  opacity: 0.5;
+}
+
+#lang {
+  color: rgb(0, 0, 0);
+  float: right;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10%;
+  margin-right: 25px;
+  margin-top: 10px;
+  border: solid 1px;
+  cursor: pointer;
+}
+#lang:hover {
+  background-color: rgb(233, 227, 227);
+}
+
+.language-selector {
+  position: relative;
+}
+
+.lang-menu {
+  display: none;
+  position: absolute;
+  right: 3%;
+  top: 45px;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  z-index: 1000;
+}
+
+.lang-menu div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.lang-menu div:hover {
+  background-color: #f0f0f0;
+}
+
+#main-content {
+  padding: 20px;
+}
