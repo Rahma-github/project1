@@ -1,0 +1,16 @@
+{
+    "en": {
+        "menu": "Explore",
+        "business": "Udemy Business",
+        "teach": "Teach on Udemy",
+        "welcomeText": "Welcome to our website!",
+        "footerText": "© 2025 Udemy, Inc."
+    },
+    "ar": {
+        "menu": "استكشاف",
+        "business": "أعمال يوديمي",
+        "teach": "تعليم على يوديمي",
+        "welcomeText": "مرحبًا بك في موقعنا!",
+        "footerText": "© 2025 يودمي ، ذ.م.م."
+    }
+}

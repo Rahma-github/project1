@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .section1 {
+    position: relative;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 0.1%;
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+   
+  }
+  .section1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://img-c.udemycdn.com/notices/web_carousel_slide/image/bf0e2b65-f627-4026-a468-cd32a0a67883.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(100%);
+  }
+  .section1-content {
+    position: relative;
+    float: left;
+    font-family: "Monserrat", sans-serif;
+    color: white;
+    text-align: left;
+    margin: 0.625rem;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-right: 50%;
+    width: 36%;
+    height: 45%;
+    box-shadow: 2px 2px 2px 2px rgba(208, 207, 207, 0.726);
+  }
+  
+  .section1-content > h1 {
+    font-size: 2rem;
+    font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+      apple color emoji, segoe ui emoji, segoe ui symbol;
+    font-weight: 700;
+    letter-spacing: -0.15rem;
+    color: black;
+  }
+  
+  .section1-content > p {
+    font-size: 1rem;
+    font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+      Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+      segoe ui symbol;
+    font-weight: 400;
+    line-height: 2;
+    color: black;
+  }
+  
+  .section1-content > input {
+    width: 98%;
+    height: 50px;
+    font-size: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+  }
+  

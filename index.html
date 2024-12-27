@@ -6,8 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style2/style.css">
     <link rel="stylesheet" href="./style2/footerNew.css">
+    <link rel="stylesheet" href="./style2/body1.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-
 </head>
 <body>
 <header>
@@ -40,9 +40,26 @@
     </div>
 </header>
 
-<div id="main-content">
+<!-- <div id="main-content">
     <h1 id="welcome-text">Welcome to our website!</h1>
-</div>
+</div> -->
+
+<!-- body1 -->
+<section class="section1">
+
+    <div class="section1-content">
+    
+     <h1>
+        It's the last day for this bonus sale
+     </h1>
+     <br>
+     <p>Get courses from E£249.99 — plus save an extra 15% with promo code 15BONUSDEC24.</p>
+     <br>
+   
+    
+    </div>
+
+</section>
 
 <footer>
     <div class="endFooter">
@@ -62,45 +79,7 @@
     </div>
 </footer>
 
-<script>
-    const translations = {
-        en: {
-            menu: "Explore",
-            business: "Udemy Business",
-            teach: "Teach on Udemy",
-            welcomeText: "Welcome to our website!",
-            footerText: "© 2025 Udemy, Inc."
-        },
-        ar: {
-            menu: "استكشاف",
-            business: "أعمال يوديمي",
-            teach: "تعليم على يوديمي",
-            welcomeText: "مرحبًا بك في موقعنا!",
-            footerText: "© 2025 يودمي ، ذ.م.م."
-        }
-    };
 
-    function toggleLanguageMenu() {
-        const langMenu = document.getElementById("lang-menu");
-        langMenu.style.display = langMenu.style.display === "block" ? "none" : "block";
-    }
-
-    function toggleLanguageMenuFooter() {
-        const langMenuFooter = document.getElementById("lang-menu-footer");
-        langMenuFooter.style.display = langMenuFooter.style.display === "block" ? "none" : "block";
-    }
-
-    function changeLanguage(lang) {
-        document.getElementById("menu").innerText = translations[lang].menu;
-        document.getElementById("business").innerText = translations[lang].business;
-        document.getElementById("teach").innerText = translations[lang].teach;
-        document.getElementById("welcome-text").innerText = translations[lang].welcomeText;
-        document.getElementById("footer-text").innerText = translations[lang].footerText;
-
-        // Hide both language menus after selection
-        document.getElementById("lang-menu").style.display = "none";
-        document.getElementById("lang-menu-footer").style.display = "none";
-    }
-</script>
+<script src="script.js"></script>
 </body>
 </html>
